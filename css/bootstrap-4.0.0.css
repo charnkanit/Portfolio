@@ -3853,7 +3853,16 @@ tbody.collapse.show {
   display: block;
   padding: 0.5rem 1rem;
 }
-
+.lang {
+  display: block;
+  color: whitesmoke;
+  padding: 0.5rem 1rem;
+}
+.lang-dis {
+  display: block;
+  color: whitesmoke;
+  padding: 0.5rem 1rem;
+}
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
