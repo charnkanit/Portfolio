@@ -31,7 +31,7 @@
   <hr>
   <div class="row">
     <div class="col-md-8 col-sm-12">
-      <div class="media"> <img class="mr-3" src="images/115X115.gif" alt="Generic placeholder image">
+      <div class="media"> <img id="propic" class="mr-3" src="images/115X115.gif" alt="Generic placeholder image">
         <div class="media-body">
           <h5 class="mt-0">About Me:</h5>
           My full name is Charnkanit Kaewwong, my nickname is Aomsin or you can call me Sin. I am 18 years old and grade 12 student at Montfort College. I live in Chiang Mai, Thailand. I am the 1st generations of Montfort College's Gifted Computer. I am good at mathematics and programming. I am interested in programming, Internet of Things(IoT) and website developing. </div>
@@ -123,10 +123,21 @@
     </div>
   </footer>
 </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.2.1.min.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/popper.min.js"></script> 
+<script>
+  var propic = document.getElementById('propic');
+  propic.onclick = function(){
+      Swal.fire({
+          imageUrl: 'images/noey.jpg',
+          imageWidth: 842,
+          imageHeight: 595,
+          width: 900
+    })
+  };
+</script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.0.0.js"></script>
 </body>
 </html>
