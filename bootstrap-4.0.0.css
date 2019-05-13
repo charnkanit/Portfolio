@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-image: url("http://wallpapersprinted.com/download/2/light_background-wallpaper-1920x1200.jpg");
+  background-image: url("bg.jpg");
   background-color: #fff;
   background-position: center;
   background-repeat: no-repeat;
@@ -7523,6 +7523,7 @@ button.bg-dark:focus {
 .mr-3,
 .mx-3 {
   margin-right: 1rem !important;
+  Width: 250px;
 }
 
 .mb-3,
