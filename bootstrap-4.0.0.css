@@ -64,13 +64,12 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #21252;
   text-align: left;
   background-image: url("bg.jpg");
   background-color: #fff;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
 }
 
 [tabindex="-1"]:focus {
