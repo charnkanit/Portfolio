@@ -111,6 +111,35 @@
       <p>Competitive Programming hold by VMS(Vincent Mary School of Science and Technology), Assumption University. <a href="https://www.facebook.com/codeplusplus/" target="_blank">See more</a></p>
 	  <div class="col-sm-4 col-12 p-0"><img id="codeplus" class="img-thumbnail"  src="award/CODE++.jpg" alt="" ></div>
     </div>
+    <div class="col-md-6 col-sm-12">
+        <div class="row">
+          <div class="col-5">
+            <h4>Won 2nd place in SIT CODE 2019</h4>
+          </div>
+          <div class="col-6">
+            <h5 class="text-right"><span aria-hidden="true"></span> February 2019</h5>
+          </div>
+        </div>
+        <h5><span class="badge badge-secondary">Competitive Programming Contest</span></h5>
+        <p>Competitive Programming hold by SIT(School of Information Technology), King Mongkut's University of Technology Thonburi.</p>
+  	  <div class="col-sm-4 col-12 p-0"><img id="sitcode" class="img-thumbnail"  src="award/SITCODE.jpg" alt="" ></div>
+      </div>
+
+
+
+      <div class="col-md-6 col-sm-12">
+          <div class="row">
+            <div class="col-5">
+              <h4>Won 2nd place in iCode 2019</h4>
+            </div>
+            <div class="col-6">
+              <h5 class="text-right"><span aria-hidden="true"></span> August 2019</h5>
+            </div>
+          </div>
+          <h5><span class="badge badge-secondary">Competitive Programming Contest</span></h5>
+          <p>Competitive Programming hold by Computer Engineering Faculty, Chiang Mai University.</p>
+    	  <div class="col-sm-4 col-12 p-0"><img id="icode2019" class="img-thumbnail"  src="award/ICODE2019.jpg" alt="" ></div>
+        </div>
 
   </div>
   <hr>
@@ -157,7 +186,7 @@
     <div class="col-md-6 col-sm-12">
       <div class="row">
         <div class="col-5">
-          <h4>Be a lecturer</h4>
+          <h4>Lecture</h4>
         </div>
         <div class="col-6">
           <h5 class="text-right"><span aria-hidden="true"></span> 17-18 Jun 2018</h5>
@@ -208,6 +237,7 @@
           <li>OpenCV-Python</li>
         </ul>
         <div class="col-sm-4 col-12 p-0"><img id="nsc" class="img-thumbnail"  src="award/NSC.jpg" alt=""></div>
+          <div class="col-sm-4 col-12 p-0"><img id="poster" class="img-thumbnail"  src="FINALPOSTER.jpg" alt=""></div>
       </div>
 
     <!-- POSN 2 2018 -->
@@ -256,9 +286,36 @@
 	var icode = document.getElementById('icode');
 	var techjam = document.getElementById('techjam');
 	var codeplus = document.getElementById('codeplus');
+  var sitcode = document.getElementById('sitcode');
+  var icode2019 = document.getElementById('icode2019');
+  var poster = document.getElementById('poster');
 	gifted.onclick = function(){
 		Swal.fire({
   			imageUrl: 'award/CAMT.jpg',
+  			imageWidth: 842,
+  			imageHeight: 595,
+			width: 900
+		})
+	};
+  poster.onclick = function(){
+		Swal.fire({
+  			imageUrl: 'FINALPOSTER.jpg',
+  			imageWidth: 625,
+  			imageHeight: 842,
+			width: 900
+		})
+	};
+  sitcode.onclick = function(){
+		Swal.fire({
+  			imageUrl: 'award/SITCODE.jpg',
+  			imageWidth: 842,
+  			imageHeight: 595,
+			width: 900
+		})
+	};
+  icode2019.onclick = function(){
+		Swal.fire({
+  			imageUrl: 'award/ICODE2019.jpg',
   			imageWidth: 842,
   			imageHeight: 595,
 			width: 900
