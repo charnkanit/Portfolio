@@ -267,6 +267,32 @@
       </div>
     </div>
     <hr>
+    <h2>Works</h2>
+    <hr>
+    <div class="col-md-6 col-sm-12">
+      <div class="row">
+        <div class="col-5">
+          <h4>Mc-Pirate Math Camp 2018 </h4>
+        </div>
+        <div class="col-6">
+          <h5 class="text-right"><span aria-hidden="true"></span> December 2018 - January 2019</h5>
+        </div>
+      </div>
+      <h5><span class="badge badge-secondary">Website Development</span></h5>
+      <p>Montfort College Gifted Math's Camp website. I am the website's a co-founder and developer <a href="https://www.Mcpiratecamp2018.com" target="_blank">More detail</a></p>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>PHP</li>
+      </ul>
+      <div class="col-sm-4 col-12 p-0"><img id="mccamp" class="img-thumbnail" src="images/MCmathcap.png" alt=""></div>
+    </div>
+    <hr>
+
+
+
+
+
     <footer class="text-center">
       <div class="container">
         <div class="row">
@@ -294,9 +320,18 @@
     var sitcode = document.getElementById('sitcode');
     var icode2019 = document.getElementById('icode2019');
     var poster = document.getElementById('poster');
+    var mccamp = document.getElementById('mccamp');
     gifted.onclick = function() {
       Swal.fire({
         imageUrl: 'award/CAMT.jpg',
+        imageWidth: 842,
+        imageHeight: 595,
+        width: 900
+      })
+    };
+    mccamp.onclick = function() {
+      Swal.fire({
+        imageUrl: 'images/MCmathcap.png',
         imageWidth: 842,
         imageHeight: 595,
         width: 900
