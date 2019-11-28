@@ -8772,7 +8772,10 @@ button.bg-dark:focus {
 .text-right {
   text-align: right !important;
 }
-
+.GPA {
+  text-align: right !important;
+  color: grey;
+}
 .text-center {
   text-align: center !important;
 }
