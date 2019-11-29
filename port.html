@@ -293,6 +293,21 @@
     </div>
 
 
+    <div class="col-md-6 col-sm-12">
+      <div class="row">
+        <div class="col-5">
+          <h4> KU01 </h4>
+        </div>
+        <div class="col-6">
+          <h5 class="text-right"><span aria-hidden="true"></span> NOV 2019</h5>
+        </div>
+      </div>
+      <h5><span class="badge badge-secondary">Competitive Programming</span></h5>
+      <p>Competitive Programming hold by Computer Engineering Faculty, Kasetsart University. <a href="https://web.facebook.com/ku01exam/" target="_blank">More detail</a></p>
+      <div class="col-sm-4 col-12 p-0"><img id="ku01" class="img-thumbnail" src="award/ku01.jpg" alt=""></div>
+    </div>
+
+
 
 
     <!-- Works -->
@@ -360,9 +375,18 @@
     var poster = document.getElementById('poster');
     var mccamp = document.getElementById('mccamp');
     var imso = document.getElementById('imso');
+    var ku01 = document.getElementById('ku01');
     imso.onclick = function() {
       Swal.fire({
         imageUrl: 'award/imso.jpg',
+        imageWidth: 842,
+        imageHeight: 595,
+        width: 900
+      })
+    };
+    ku01.onclick = function() {
+      Swal.fire({
+        imageUrl: 'award/ku01.jpg',
         imageWidth: 842,
         imageHeight: 595,
         width: 900
