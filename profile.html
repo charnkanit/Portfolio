@@ -74,8 +74,8 @@
             <h4>Montfort College Primary Sections</h4>
           </div>
           <div class="col-6">
-            <h5 class="text-right"><span aria-hidden="true"></span>2008 - 2013</h5>
-            <h4 class="GPA"><span aria-hidden="true"></span>GPAX : 3.64</h5>
+            <h5 class="text-right"><span aria-hidden="true"></span>2008 - 2013 &nbsp<a class="btn btn-outline-success" href="transcript/full1.jpg" role="button" target="_blank">GPAX : 3.67</a></h5>
+
           </div>
         </div>
         <h5><span class="badge badge-secondary">Elementary school</span></h5>
@@ -84,8 +84,7 @@
             <h4>Montfort College</h4>
           </div>
           <div class="col-6">
-            <h5 class="text-right"><span aria-hidden="true"></span> 2014 - 2016</h5>
-            <h4 class="GPA"><span aria-hidden="true"></span>GPAX : 3.76</h5>
+            <h5 class="text-right"><span aria-hidden="true"></span> 2014 - 2016 &nbsp<a class="btn btn-outline-success" href="transcript/full2.jpg" role="button" target="_blank">GPAX : 3.76</a></h5>
           </div>
         </div>
         <h5><span class="badge badge-secondary">Middle school</span></h5>
@@ -94,11 +93,11 @@
             <h4>Montfort College</h4>
           </div>
           <div class="col-6">
-            <h5 class="text-right"><span aria-hidden="true"></span> 2017 - 2019</h5>
-            <h4 class="GPA"><span aria-hidden="true"></span>GPAX : 3.67</h5>
+            <h5 class="text-right"><span aria-hidden="true"></span> 2017 - 2019 &nbsp<a class="btn btn-outline-success" href="transcript/full3.jpg" role="button" target="_blank">GPAX : 3.75</a></h5>
           </div>
         </div>
         <h5><span class="badge badge-secondary">High school</span></h5>
+        <p style="color:blue;font-size:11px;text-align:right">>>Click at GPAX to see my transcripts<<</p>
       </div>
       <div class="col-md-6 col-sm-12">
         <h2>Skill Set</h2>
@@ -201,6 +200,17 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap-4.0.0.js"></script>
+  <script>
+    var t1 = document.getElementById('t1');
+    t1.onclick = function() {
+      Swal.fire({
+        imageUrl: 'transcript/full1.jpg',
+        imageWidth: 1240,
+        imageHeight: 877,
+        width: 900
+      })
+    };
+  </script>
 </body>
 
 </html>
