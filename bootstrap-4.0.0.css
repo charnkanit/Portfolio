@@ -20,7 +20,14 @@
   --gray-dark: #343a40;
   --primary: #007bff;
   --secondary: #6c757d;
-  --success: #28a745;
+  --success: #28a745; 
+  --pallete1: #F5B041;
+  --pallete2: #F4D03F;
+  --pallete3: #58D68D;
+  --pallete4: #52BE80;
+  --pallete5: #45B39D;
+  --pallete6: #48C9B0;
+  --pallete7: #5DADE2;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
@@ -329,7 +336,7 @@ legend {
 }
 
 .hero-image {
-  background-image: url("images/pic1_1.jpg");
+  background-image: url("images/BigPic.png");
   background-color: #cccccc;
   width: 100%;
   height: 890px;
@@ -345,7 +352,7 @@ legend {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
 }
 
 progress {
@@ -5168,7 +5175,7 @@ tbody.collapse.show {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  color: #fff;
+  color: Black;
   text-align: center;
   background-color: #007bff;
   transition: width 0.6s ease;
@@ -6135,7 +6142,35 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color: #F5B041 !important;
+}
+
+.bg-pallete1 {
+  background-color: #ABEBC6 !important;
+}
+
+.bg-pallete2 {
+  background-color: #A9DFBF !important;
+}
+
+.bg-pallete3 {
+  background-color: #A2D9CE !important;
+}
+
+.bg-pallete4 {
+  background-color: #A3E4D7 !important;
+}
+
+.bg-pallete5 {
+  background-color: #AED6F1 !important;
+}
+
+.bg-pallete6 {
+  background-color: #A9CCE3 !important;
+}
+
+.bg-pallete7 {
+  background-color: #D2B4DE !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
